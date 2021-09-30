@@ -10,191 +10,199 @@
 
 <body>
     <h1>First Javascript Page</h1>
-    <!-- <div class="container">
+    <div class="container">
         <button id="click">Clik Me</button>
     </div>
     <br />
-    <script src="index.js"></script> -->
+    <script src="index.js"></script>
     <script>
-        // // 1. WAYS TO PRINT 
-        // console.log("Print", 30 + 20, "this is a string");
-        // // alert("PRINT");
-        // document.write("Print The Word")
+        //  WAYS TO PRINT 
+        console.log("Print", 30 + 20, "this is a string");
+        alert("PRINT");
+        document.write("Print The Word")
 
-        // // 2. JAVASCRIPT CONSOLE API 
-        // console.log("Hello World");
-        // console.error("This Is Error");
-        // console.warn("This is Warning");
-        // console.assert(4 == 6);
-        // // console.clear();
+        // JAVASCRIPT CONSOLE API 
+        console.log("Hello World");
+        console.error("This Is Error");
+        console.warn("This is Warning");
+        console.assert(4 == 6);
+        // console.clear();
 
 
-        // //3. Javascript Variable
-        // var num1 = 4;
-        // var num2 = 4;
-        // console.log(num1 + num2)
+        // Javascript Variable
+        var num1 = 4;
+        var num2 = 4;
+        console.log(num1 + num2)
 
-        // //  4. DataType In Javascript
-        // //  There are Two Types of dataType
-        // //  1.Primitive => Number,String,Boolean,Null,Undefine,symbol
-        // //  2. Refrense => Arrays,Object
+        //  DataType In Javascript
+        //  There are Two Types of dataType
+        //  1.Primitive => Number,String,Boolean,Null,Undefine,symbol
+        //  2. Refrense => Arrays,Object
 
-        // // Number
-        // var n1 = 5;
-        // var n2 = 10;
-        // console.log(n2);
-        // //String
-        // var str = "this is a string";
-        // console.log(str);
-        // //Blooean
-        // var b1 = true;
-        // var b2 = false;
-        // console.log(b1);
-        // //null
-        // var a = null;
-        // console.log(a);
-        // //undefined
-        // var B;
-        // console.log(B);
+        // Number
+        var n1 = 5;
+        var n2 = 10;
+        console.log(n2);
 
-        // //Array 
-        // var arr = [0, 1, 2, 3, 4, "hyy"];
-        // console.log(arr);
-        // console.log(arr[5])
-        // //Objects
-        // var marks = {
-        //     a: 70,
-        //     b: 80,
-        //     c: 90,
-        //     d: 99.9
-        // }
-        // console.log(marks)
+        //String
+        var str = "this is a string";
+        console.log(str);
 
-        // //operators
+        //Blooean
+        var b1 = true;
+        var b2 = false;
+        console.log(b1);
 
-        // //Arithmatic Oprator(+,_,/,*)
-        // var x = 100;
-        // var y = 10;
-        // console.log("This is 'x+y'", x + y);
-        // console.log("This is 'x-y'", x - y);
-        // console.log("This is 'x*y'", x * y);
-        // console.log("This is 'x/y'", x / y);
+        //null
+        var a = null;
+        console.log(a);
 
-        // //Assignment Oprator
+        //undefined
+        var B;
+        console.log(B);
 
-        // a = 40;
-        // b = 90;
-        // console.log(a == b);
+        //Array 
+        var arr = [0, 1, 2, 3, 4, "hyy"];
+        console.log(arr);
+        console.log(arr[5])
 
-        // //Logical Oprator(&&,||,!)
-        // //AND
-        // console.log(true && true);
-        // console.log(true && false);
-        // console.log(false && true);
-        // console.log(false && false);
-        // // OR
-        // console.log(true || true);
-        // console.log(true || false);
-        // console.log(false || true);
-        // console.log(false || false);
-        // //NOT
-        // console.log(!true);
-        // console.log(!false);
+        //Objects
+        var marks = {
+            a: 70,
+            b: 80,
+            c: 90,
+            d: 99.9
+        }
+        console.log(marks)
 
-        // //Comparsion Oprator(<=,>=,==,<,>,!=)
-        // p = 2;
-        // q = 3;
-        // console.log(p == q);
-        // console.log(p <= q);
-        // console.log(p >= q);
-        // console.log(p != q);
-        // console.log(p < q);
-        // console.log(p > q);
+        //operators
+        //Arithmatic Oprator(+,_,/,*)
+        var x = 100;
+        var y = 10;
+        console.log("This is 'x+y'", x + y);
+        console.log("This is 'x-y'", x - y);
+        console.log("This is 'x*y'", x * y);
+        console.log("This is 'x/y'", x / y);
 
-        // // Conditionals In Javascript
-        // //Single If
-        // var age = 22;
-        // if (age > 18) {
-        //     console.log("Vote");
-        // }
-        // // If-else 
-        // var a = 18;
-        // if (a != 18) {
-        //     console.log("NOT Vote");
-        // } else {
-        //     console.log("Vote")
-        // }
-        // // if else lader
-        // var x = 30;
-        // if (x > 50) {
-        //     console.log("Not a child")
-        // } else if (x <= 30) {
-        //     console.log("Young")
-        // }
-        // else if (x < 18) {
-        //     console.log(" Small Child")
-        // } else {
-        //     console.log(" Child")
-        // }
+        //Assignment Oprator
+        a = 40;
+        b = 90;
+        console.log(a == b);
 
-        // // Function
-        // function myFun() {
-        //     console.log("this is a function");
+        //Logical Oprator(&&,||,!)
+        //AND
+        console.log(true && true);
+        console.log(true && false);
+        console.log(false && true);
+        console.log(false && false);
 
-        // }
-        // myFun();
-        // function avg(a, b) {
+        // OR
+        console.log(true || true);
+        console.log(true || false);
+        console.log(false || true);
+        console.log(false || false);
 
-        //     return (a + b / 2);
-        // }
-        // x = avg(4, 5);
-        // console.log(x)
+        //NOT
+        console.log(!true);
+        console.log(!false);
 
-        // //Loops
-        // // For Loop
-        // var a = [1, 2, 3, 4, 5];
-        // console.log(a);
-        // for (var i = 0; i < a.length; i++) {
-        //     console.log(a[i]);
-        // }
-        // //ForEach loop
-        // var b = [6, 2, 3, 4, 5];
-        // b.forEach(function (element) {
-        //     console.log(element);
-        // })
+        //Comparsion Oprator(<=,>=,==,<,>,!=)
+        p = 2;
+        q = 3;
+        console.log(p == q);
+        console.log(p <= q);
+        console.log(p >= q);
+        console.log(p != q);
+        console.log(p < q);
+        console.log(p > q);
 
-        // //While
-        // var a1 = [1, 3, 5, 7]
-        // let jj = 0;
-        // while (jj < a1.length) {
-        //     console.log(a1[jj]);
-        //     jj++;
-        // }
-        // //Do While
-        // var a2 = [1, 3, 5, 7]
-        // let kk = 0;
-        // do {
-        //     console.log(a2[kk]);
-        //     y++;
-        // } while (kk < a2.length);
+        // Conditionals In Javascript
+        //Single If
+        var age = 22;
+        if (age > 18) {
+            console.log("Vote");
+        }
 
-        // //Break
-        // var b = [11, 2, 31, 4, 50];
-        // for (var j = 0; j < b.length; j++) {
-        //     if (j == 2) {
-        //         break;
-        //     }
-        // }
-        // console.log(b[j]);
+        // If-else 
+        var a = 18;
+        if (a != 18) {
+            console.log("NOT Vote");
+        } else {
+            console.log("Vote")
+        }
 
-        // //Continue
-        // let c = [15, 25, 39, 40, 52];
-        // for (var k = 0; k < c.length; k++) {
-        //     if (k == 25) {
-        //         continue;
-        //     }
-        // }
-        // console.log(c[k]);
+        // if else lader
+        var x = 30;
+        if (x > 50) {
+            console.log("Not a child")
+        } else if (x <= 30) {
+            console.log("Young")
+        }
+        else if (x < 18) {
+            console.log(" Small Child")
+        } else {
+            console.log(" Child")
+        }
+
+        // Function
+        function myFun() {
+            console.log("this is a function");
+
+        }
+        myFun();
+        function avg(a, b) {
+
+            return (a + b / 2);
+        }
+        x = avg(4, 5);
+        console.log(x)
+
+        //Loops
+        // For Loop
+        var a = [1, 2, 3, 4, 5];
+        console.log(a);
+        for (var i = 0; i < a.length; i++) {
+            console.log(a[i]);
+        }
+
+        //ForEach loop
+        var b = [6, 2, 3, 4, 5];
+        b.forEach(function (element) {
+            console.log(element);
+        })
+
+        //While
+        var a1 = [1, 3, 5, 7]
+        let jj = 0;
+        while (jj < a1.length) {
+            console.log(a1[jj]);
+            jj++;
+        }
+        //Do While
+        var a2 = [1, 3, 5, 7]
+        let kk = 0;
+        do {
+            console.log(a2[kk]);
+            y++;
+        } while (kk < a2.length);
+
+        //Break
+        var b = [11, 2, 31, 4, 50];
+        for (var j = 0; j < b.length; j++) {
+            if (j == 2) {
+                break;
+            }
+        }
+        console.log(b[j]);
+
+        //Continue
+        let c = [15, 25, 39, 40, 52];
+        for (var k = 0; k < c.length; k++) {
+            if (k == 25) {
+                continue;
+            }
+        }
+        console.log(c[k]);
 
         // array Methodes
         var arr = ["apple", "banana", "orange", "graps", "kiwi"];
@@ -232,11 +240,40 @@
         console.log(myDate.getMilliseconds());
         console.log(myDate.getDay());
 
-//Arrow Function
-sum =(a,b)=>{
-    return a+b;
-    
-}
+        //Arrow Function
+        sum = (a, b) => {
+            return a + b;
+        }
+        //setTimeout And setinterval
+        // Show value Given time 
+        log = () => {
+            console.log("Login")
+        }
+        // setTimeout(log,2000)
+        setInterval(log, 2000)
+
+        // clearTimeout/ClearInterval to cancle setTiomeout/setInterval
+        //Repeat Value
+        login = () => {
+            console.log("Clear")
+        }
+        clr = setTimeout(login, 5000)
+
+        //Local Storage
+
+        localStorage;
+        localStorage.setItem("name", "xyz");
+        localStorage.clear();
+        localStorage.getItem("name");
+        localStorage.removeItem();
+
+        //JSON
+        obj = { name: "abc", length: 1, age: { this: "18" } }
+        jso = JSON.stringify(obj);
+        console.log(jso)
+        parsed = JSON.parse('{"name":"xyz","age":20}')
+        console.log(parsed)
+
 
 
 
